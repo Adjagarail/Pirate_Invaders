@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pirate Invaders</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>Pirate Invaders</header>
+    <div class="game-wrapper">
+      <div class="game"></div>
+      <div class="congratulations">
+        <h1>Félicitation!</h1>
+        <h2>Vous avez empéché l'invasion de votre ile par les pirates</h2>
+        <button class="btn" id="level_up">Level 2</button>
+      </div>
+      <div class="game-over">
+        <h1>Fin de la partie</h1>
+        <h2>Les pirates ont reuissies à envahir votre iles</h2>
+        <button class="btn" onclick="window.location.reload()">Recommencer</button>
+      </div>
+    </div>
+    <footer><b>◄</b>Bouton Gauche/Bouton Droite<b>►</b>pour se déplacer/Espace pour tirer</footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
